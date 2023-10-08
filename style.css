@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #D5C3AA;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+section {
+    background-color: #EAE2D6;
+}
+
+.hero {
+    text-align: justify;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    width: 50%;
+    margin-left: 10px;
+}
+.hero-text h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 17px;
+}
+
+.hero img {
+    margin-right: 30px;
+    width: 300px;
+    height: auto;
+}
+
+.hero-text button {
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    padding: 10px;
+    background-color: #c7b099;
+    color: white;
+    border: 0px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.hero-text button:hover {
+    background-color: #e1c9a3;
+}
+
+.about {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.image-about {
+    flex: 1;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.profile-image {
+    max-width: 100%;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+
+.image-about:hover .profile-image {
+    transform: scale(1.1);
+}
+
+.text-about {
+    flex: 2;
+    padding: 20px;
+    text-align: justify;
+}
+
+.text-about h2 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.text-about p {
+    width: 95%;
+    padding-left: 30px;
+}
+
+.text-about button {
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    padding: 10px;
+    margin-left: 30px;
+    background-color: #c7b099;
+    color: white;
+    border: 0px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.text-about button:hover {
+    background-color: #e1c9a3;
+}
+
+.my-skill {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    border: 1px solid #e1c9a3;
+    border-radius: 6px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.my-skill h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.skill-saya {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.jenis-skill {
+    text-align: center;
+    padding: 20px;
+    margin: 30px 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.skill-judul {
+    margin-bottom: 20px;
+}
+
+.skill-deskripsi {
+    margin-top: 20px;
+}
+
+.img-html {
+    width: 200px;
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.img-html:hover {
+    transform: scale(1.2);
+}
+
+.img-css {
+    width: 145px;
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.img-css:hover {
+    transform: scale(1.2);
+}
+
+.img-js {
+    width: 187px;
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.img-js:hover {
+    transform: scale(1.2);
+}
+
+.bio{
+    padding: 20px;
+    text-align: center;
+}
+
+.bio img{
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+
+.bio img:hover {
+    transform: scale(1.2);
+}
+
+.bio h3 {
+    margin: 10px;
+}
+
+.project-saya {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.jenis-project {
+    text-align: center;
+    padding: 20px;
+    margin: 30px 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+.project-judul {
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.project-deskripsi {
+    margin-top: 10px;
+    text-align: justify;
+    height: 50px;
+}
+
+.jenis-project button {
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    padding: 10px;
+    background-color: #c7b099;
+    color: white;
+    border: 0px;
+    margin-right: 400px;
+}
+
+.jenis-project button:hover {
+    background-color: #e1c9a3;
+}
+
+.img-project {
+    border-radius: 6px;
+    width: 90%;
+    height: 195px;
+    transition: transform 0.2s;
+}
+
+.img-project:hover {
+    transform: scale(1.2);
+}
+
+.my-blog {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    border: 1px solid #e1c9a3;
+    border-radius: 6px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.my-blog h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.my-blog p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.blog-saya {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.jenis-blog {
+    text-align: center;
+    padding: 20px;
+    margin: 30px 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    max-width: 450px;
+}
+
+.blog-judul {
+    padding-top: 20px;
+    text-align: left;
+}
+
+#blog-deskripsi {
+    margin-top: 10px;
+    text-align: left;
+    height: 200px;
+}
+
+#blog-deskripsi2 {
+    margin-top: 10px;
+    text-align: left;
+    height: 157px;
+}
+
+#blog-penulis {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.jenis-blog button {
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    background-color: #c7b099;
+    color: white;
+    border: 0px;
+}
+
+.jenis-blog button:hover {
+    background-color: #e1c9a3;
+}
+
+.img-blog {
+    margin-bottom: 10px;
+    border-radius: 6px;
+    width: 90%;
+    height: 195px;
+    transition: transform 0.2s;
+}
+
+.img-blog:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    background-color: #EAE2D6;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.footerku {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footerku img {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.2s;
+    margin-bottom: 7px;
+}
+
+.footerku img:hover {
+    transform: scale(1.2);
+}
