@@ -367,19 +367,19 @@ footer {
     padding-top: 35px;
 }
 
-.footerku {
+.media-sosial {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.footerku img {
+.media-sosial img {
     width: 25px;
     height: 25px;
     transition: transform 0.2s;
     margin-bottom: 7px;
 }
 
-.footerku img:hover {
+.media-sosial img:hover {
     transform: scale(1.2);
 }
